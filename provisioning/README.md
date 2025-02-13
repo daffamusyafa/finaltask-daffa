@@ -45,11 +45,19 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/5c35f78d-a379-4f46-a233-7d35213764f1)
 
-# 7.buat file outputs.tf
+# 7.Buat file outputs.tf
 
 ![image](https://github.com/user-attachments/assets/853867d6-66f7-492a-8f2c-862380e1fda0)
 
 ![image](https://github.com/user-attachments/assets/92d11e7b-0ca9-44ad-ba41-5e0070ec2821)
+
+# 8.Jalankan Terraform
+
+![image](https://github.com/user-attachments/assets/02535209-2514-40ae-bf53-75e5c1113f05)
+
+![image](https://github.com/user-attachments/assets/35b12182-0eac-43fb-bc7e-c9ea9e3a06e8)
+
+![image](https://github.com/user-attachments/assets/5ada3db9-3838-42d1-a426-a9d8f6023dc2)
 
 # .Install ansible
 
@@ -58,6 +66,4 @@ JAWABAN:
 ![image](https://github.com/user-attachments/assets/63447f07-4034-429f-840c-d3ac2c9472ff)
 
 ![image](https://github.com/user-attachments/assets/7c8658f0-4700-4d47-a0a2-65cdc9b61a01)
-
-# 4.buat konfigurasi terraform untuk membuat 2 server ubuntu
 
