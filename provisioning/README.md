@@ -14,6 +14,9 @@ Instructions
 JAWABAN:
 
 # 1.Install Terraform
+
+https://developer.hashicorp.com/terraform/tutorials/docker-get-started/install-cli
+
 # 2.Buat file providers.tf
 
 ![image](https://github.com/user-attachments/assets/5d163039-1ddd-4150-b7f3-45ea826bdb94)
