@@ -68,13 +68,3 @@ https://developer.hashicorp.com/terraform/tutorials/docker-get-started/install-c
 ![image](https://github.com/user-attachments/assets/63447f07-4034-429f-840c-d3ac2c9472ff)
 
 ![image](https://github.com/user-attachments/assets/7c8658f0-4700-4d47-a0a2-65cdc9b61a01)
-
-# 10.Buat konfigurasi agar bisa masuk ke semua server pake 1 ssh-key
-
-![image](https://github.com/user-attachments/assets/4f0e2c96-d3d0-4cca-af0b-45b4b9b6cba8)
-
-![image](https://github.com/user-attachments/assets/40cc8b00-05ac-458b-950d-f78040bde527)
-
-# 11.copy id_rsa.pub ke authorized.key di semua server agar bisa masuk menggunakan 1 ssh-key yaitu id_rsa.pub
-
-![image](https://github.com/user-attachments/assets/1c2ee05f-3485-4ff8-8cb3-29a244443cb1)
