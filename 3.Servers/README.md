@@ -27,7 +27,7 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/b28a92f3-f22f-4d68-9493-1010c6134a33)
 
-# copy id_rsa.pub ke authorized.key di semua server agar bisa masuk menggunakan 1 ssh-key yaitu id_rsa.pub  dengan menggunakan ansible
+# buat user finaltask-daffa ke semua server dan copy id_rsa.pub ke authorized.key di semua server agar bisa masuk menggunakan 1 ssh-key yaitu id_rsa.pub  dengan menggunakan ansible
 
 ![image](https://github.com/user-attachments/assets/5e94e1bc-d9bd-4b99-a91d-6859f9051718)
 
@@ -39,4 +39,8 @@ JAWABAN:
 
 # jalankan ansible
 
+![image](https://github.com/user-attachments/assets/1d23edd3-f5cc-47de-9acf-f99d79345a46)
 
+# Buat enable port yang digunakan saja
+
+![image](https://github.com/user-attachments/assets/006c9c18-caf2-400b-a8f0-eb526d449e4a)
