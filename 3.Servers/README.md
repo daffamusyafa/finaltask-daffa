@@ -33,8 +33,10 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/ffe6e053-e95f-4229-8fcf-4c99425fcd8a)
 
-![image](https://github.com/user-attachments/assets/75cd6060-3a30-4139-a683-f33dd179bac7)
+![image](https://github.com/user-attachments/assets/bd2a0508-dfa8-4fda-a587-2c6638597877)
 
-![image](https://github.com/user-attachments/assets/614c097e-70ea-4d45-82fe-ff2f2d1dadf0)
+![image](https://github.com/user-attachments/assets/ff92298c-fd28-4c6c-871d-0f7bd62c32e1)
 
-#
+# jalankan ansible
+
+
