@@ -27,8 +27,14 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/b28a92f3-f22f-4d68-9493-1010c6134a33)
 
-# copy id_rsa.pub ke authorized.key di semua server agar bisa masuk menggunakan 1 ssh-key yaitu id_rsa.pub  
+# copy id_rsa.pub ke authorized.key di semua server agar bisa masuk menggunakan 1 ssh-key yaitu id_rsa.pub  dengan menggunakan ansible
 
-![image](https://github.com/user-attachments/assets/4f0e2c96-d3d0-4cca-af0b-45b4b9b6cba8)  
+![image](https://github.com/user-attachments/assets/5e94e1bc-d9bd-4b99-a91d-6859f9051718)
 
-![image](https://github.com/user-attachments/assets/1c2ee05f-3485-4ff8-8cb3-29a244443cb1)
+![image](https://github.com/user-attachments/assets/ffe6e053-e95f-4229-8fcf-4c99425fcd8a)
+
+![image](https://github.com/user-attachments/assets/75cd6060-3a30-4139-a683-f33dd179bac7)
+
+![image](https://github.com/user-attachments/assets/614c097e-70ea-4d45-82fe-ff2f2d1dadf0)
+
+#
