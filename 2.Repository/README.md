@@ -27,9 +27,23 @@ JAWABAN:
 
 # Buat repository backend-dumbmerch dan frontend-dumbmerch untuk staging dan production
 
+![image](https://github.com/user-attachments/assets/c8b303ed-d96e-403e-89e0-a8a18fc5a1ed)
+
+![image](https://github.com/user-attachments/assets/4eb69e3d-8881-4731-806a-6ab615139aa7)
+
+![image](https://github.com/user-attachments/assets/bf912d30-a7bf-4818-b6ae-173964e46808)
+
+![image](https://github.com/user-attachments/assets/a9011b88-be29-4296-a41c-ce96f0dd67ea)
+
+# Buat konfigurasi ansible untuk push aplikasi staging dan production
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/82db4748-8dad-467c-824f-e209d2ee856d)
 
-![image](https://github.com/user-attachments/assets/9ad1c0ef-ad2f-4dd5-ad2c-267d6d368b1c)
+![image](https://github.com/user-attachments/assets/88333fbd-a0e9-4559-af7b-6412f59a5d44)
 
 ![image](https://github.com/user-attachments/assets/b6ec8aa5-1eae-4eb7-80c1-c830fe3ff808)
 
