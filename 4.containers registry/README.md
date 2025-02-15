@@ -1,0 +1,13 @@
+Requirements
+
+    Docker Registry Private
+
+Instructions
+
+[ Docker Registry ]
+
+    Deploy Docker Registry Private on this server
+    Push your image into Your Own Docker Registry
+    reverse proxy for docker registry was registry.{your_name}.studentdumbways.my.id
+JAWABAN:
+
