@@ -19,5 +19,4 @@ JAWABAN:
 
 # setup docker registry private
 
-![image](https://github.com/user-attachments/assets/49d5e77e-b63d-4e40-947b-73f99df4f211)
 
