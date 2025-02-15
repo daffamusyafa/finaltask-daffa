@@ -35,7 +35,7 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/bd2a0508-dfa8-4fda-a587-2c6638597877)
 
-![image](https://github.com/user-attachments/assets/ff92298c-fd28-4c6c-871d-0f7bd62c32e1)
+![image](https://github.com/user-attachments/assets/d8b5b7d5-5204-42f3-a56e-3759c8d46e64)
 
 # jalankan ansible
 
