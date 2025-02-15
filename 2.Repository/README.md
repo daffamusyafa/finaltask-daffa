@@ -43,9 +43,16 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/b6ec8aa5-1eae-4eb7-80c1-c830fe3ff808)
 
-![image](https://github.com/user-attachments/assets/62065396-5710-4ce6-817c-13c8976c841e)
+![image](https://github.com/user-attachments/assets/731705a8-aa3d-42f1-badf-b9c3634bfe40)
 
-![image](https://github.com/user-attachments/assets/f3642165-cf8e-4654-a29e-a8dba2ed1fc9)
+![image](https://github.com/user-attachments/assets/edb1b0a8-4909-43b7-8743-6698f7485f16)
+
+#Staging
+
+![image](https://github.com/user-attachments/assets/a6a83b94-5e68-44a4-9463-0068036f8570)
+
+![image](https://github.com/user-attachments/assets/965b1d9b-3f13-40eb-b300-3be33b51275d)
+
 
 # Tambahkan domain jenkins
 
