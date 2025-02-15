@@ -65,9 +65,14 @@ JAWABAN:
 
 # Production
 
+![image](https://github.com/user-attachments/assets/f11b5682-1a41-4bcf-805b-5394dbad34b1)
 
+![image](https://github.com/user-attachments/assets/10748e1d-2fb6-4fc1-8f8c-705dd94707df)
+
+![image](https://github.com/user-attachments/assets/0c3e46e3-5cd8-4413-a3d7-4b2a40d0931f)
+
+![image](https://github.com/user-attachments/assets/28158042-0de6-405f-9c69-25ee891c2524)
 
 # Tambahkan domain jenkins
 
-![image](https://github.com/user-attachments/assets/b6ebd752-0344-4a5a-af42-bdf3eb48280e)
-
+![image](https://github.com/user-attachments/assets/fb015997-d7bd-40d4-8b31-ee55c162cbcc)
