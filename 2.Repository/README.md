@@ -35,7 +35,10 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/62065396-5710-4ce6-817c-13c8976c841e)
 
-
-
 ![image](https://github.com/user-attachments/assets/f3642165-cf8e-4654-a29e-a8dba2ed1fc9)
+
+# Tambahkan domain jenkins
+
+![image](https://github.com/user-attachments/assets/b6ebd752-0344-4a5a-af42-bdf3eb48280e)
+
 
