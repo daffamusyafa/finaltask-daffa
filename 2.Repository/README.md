@@ -37,13 +37,9 @@ JAWABAN:
 
 # Buat konfigurasi ansible untuk push aplikasi staging dan production
 
-
-
-
-
 ![image](https://github.com/user-attachments/assets/82db4748-8dad-467c-824f-e209d2ee856d)
 
-![image](https://github.com/user-attachments/assets/88333fbd-a0e9-4559-af7b-6412f59a5d44)
+![image](https://github.com/user-attachments/assets/87d7e56d-f136-4b7a-8d41-3e6d3010b649)
 
 ![image](https://github.com/user-attachments/assets/b6ec8aa5-1eae-4eb7-80c1-c830fe3ff808)
 
