@@ -19,7 +19,7 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/e86b0f87-dd89-46ce-b8bd-2e83d60164ab)
 
-![image](https://github.com/user-attachments/assets/23b1e369-80a1-45bb-8f2f-4887eb16100a)
+![image](https://github.com/user-attachments/assets/41c8009a-09ec-4bcc-8b2f-520faf1aede0)
 
 # Buat file ansible.cfg
 
