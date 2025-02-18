@@ -23,8 +23,6 @@ JAWABAN:
 
 # Tambahkan id_rsa.pub local server ke gitlab
 
-![image](https://github.com/user-attachments/assets/e94de5c9-7f81-45eb-afe3-59c2d72ad817)
-
 # Buat repository backend-dumbmerch dan frontend-dumbmerch untuk staging dan production
 
 ![image](https://github.com/user-attachments/assets/c8b303ed-d96e-403e-89e0-a8a18fc5a1ed)
