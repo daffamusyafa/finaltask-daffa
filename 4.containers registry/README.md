@@ -19,6 +19,14 @@ JAWABAN:
 
 # setup docker registry private
 
+![image](https://github.com/user-attachments/assets/29d2c09e-272c-4113-9ff1-28b825bcce5b)
+
+![image](https://github.com/user-attachments/assets/f7f10c70-84a3-4548-a278-b9048d4afeb7)
+
+![image](https://github.com/user-attachments/assets/4937fd02-f14b-4c1c-8efa-eee2a10f8bd4)
+
+![image](https://github.com/user-attachments/assets/5f2f338c-1b11-46dc-85e7-c377b06a7680)
+
 # push image ke docker registry private
 
 ![image](https://github.com/user-attachments/assets/cdf2e565-a596-4c4d-8021-dea3d0da0828)
