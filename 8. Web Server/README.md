@@ -47,18 +47,19 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/c91c62d1-536d-44ed-915f-f9cdf0eb09cd)
 
-...
-
 server {
     listen 80;
     server_name api.staging.studentdumbways.my.id staging.studentdumbways.my.id api.production.studentdumbways.my.id production.studentdumbways.my.id registry.daffa.studentdumbways.my.id exporter1-production.studentdumbways.my.id exporter2-getaway.studentdumbways.my.id exporter3-staging.studentdumbways.my.id exporter4-registry.studentdumbways.my.id exporter5-monitoring.studentdumbways.my.id prom-daffa.studentdumbways.my.id monitoring-daffa.studentdumbways.my.id;
     return 301 https://$host$request_uri;
 }
+...
 server {
     listen 443 ssl;
     server_name api.staging.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/api.staging.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/api.staging.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://8.221.109.28:5000/;
         proxy_set_header Host $host;
@@ -67,11 +68,14 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
 server {
     listen 443 ssl;
     server_name staging.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/staging.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/staging.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://8.221.109.28:3001/;
         proxy_set_header Host $host;
@@ -80,11 +84,14 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
 server {
     listen 443 ssl;
     server_name api.production.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/api.production.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/api.production.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://103.127.139.123:5000/;
         proxy_set_header Host $host;
@@ -93,11 +100,14 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
 server {
     listen 443 ssl;
     server_name production.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/production.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/production.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://103.127.139.123:3000/;
         proxy_set_header Host $host;
@@ -106,11 +116,14 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
 server {
     listen 443 ssl;
     server_name exporter1-production.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/exporter1-production.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/exporter1-production.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://103.127.139.123:9100/;
         proxy_set_header Host $host;
@@ -123,49 +136,12 @@ server {
 server {
     listen 443 ssl;
     server_name exporter2-getaway.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/exporter2-getaway.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/exporter2-getaway.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://103.127.139.212:9100/;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-server {
-    listen 443 ssl;
-    server_name exporter3-staging.studentdumbways.my.id;
-    ssl_certificate /etc/letsencrypt/live/exporter3-staging.studentdumbways.my.id/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/exporter3-staging.studentdumbways.my.id/privkey.pem;
-    location / {
-        proxy_pass http://8.221.109.28:9100/;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-server {
-    listen 443 ssl;
-    server_name exporter4-registry.studentdumbways.my.id;
-    ssl_certificate /etc/letsencrypt/live/exporter4-registry.studentdumbways.my.id/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/exporter4-registry.studentdumbways.my.id/privkey.pem;
-    location / {
-        proxy_pass http://47.130.91.115:9100/;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-server {
-    listen 443 ssl;
-    server_name exporter5-monitoring.studentdumbways.my.id;
-    ssl_certificate /etc/letsencrypt/live/exporter5-monitoring.studentdumbways.my.id/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/exporter5-monitoring.studentdumbways.my.id/privkey.pem;
-    location / {
-        proxy_pass http://13.251.143.29:9100/;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -175,9 +151,65 @@ server {
 
 server {
     listen 443 ssl;
+    server_name exporter3-staging.studentdumbways.my.id;
+
+    ssl_certificate /etc/letsencrypt/live/exporter3-staging.studentdumbways.my.id/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/exporter3-staging.studentdumbways.my.id/privkey.pem;
+
+    location / {
+        proxy_pass http://8.221.109.28:9100/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+server {
+    listen 443 ssl;
+    server_name exporter4-registry.studentdumbways.my.id;
+
+    ssl_certificate /etc/letsencrypt/live/exporter4-registry.studentdumbways.my.id/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/exporter4-registry.studentdumbways.my.id/privkey.pem;
+
+    location / {
+        proxy_pass http://47.130.91.115:9100/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+server {
+    listen 443 ssl;
+    server_name exporter5-monitoring.studentdumbways.my.id;
+
+    ssl_certificate /etc/letsencrypt/live/exporter5-monitoring.studentdumbways.my.id/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/exporter5-monitoring.studentdumbways.my.id/privkey.pem;
+
+    location / {
+        proxy_pass http://13.251.143.29:9100/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+
+
+
+
+
+
+server {
+    listen 443 ssl;
     server_name prom-daffa.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/prom-daffa.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/prom-daffa.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://13.251.143.29:9090/;
         proxy_set_header Host $host;
@@ -190,8 +222,10 @@ server {
 server {
     listen 443 ssl;
     server_name monitoring-daffa.studentdumbways.my.id;
+
     ssl_certificate /etc/letsencrypt/live/monitoring-daffa.studentdumbways.my.id/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/monitoring-daffa.studentdumbways.my.id/privkey.pem;
+
     location / {
         proxy_pass http://13.251.143.29:3001/;
         proxy_set_header Host $host;
@@ -200,7 +234,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
-...
+
 upstream jenkins {
         keepalive 32; # keepalive connections
         server 103.127.139.123:8080; # jenkins ip and port
@@ -278,5 +312,4 @@ upstream jenkins {
             proxy_request_buffering off; # Required for HTTP CLI commands
         }
     }
-
-    ...
+...
