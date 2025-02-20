@@ -307,3 +307,5 @@ upstream jenkins {
             proxy_request_buffering off; # Required for HTTP CLI commands
         }
     }
+
+    ...
