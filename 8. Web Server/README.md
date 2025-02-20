@@ -47,13 +47,14 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/c91c62d1-536d-44ed-915f-f9cdf0eb09cd)
 
-server {
+
+    server {
     listen 80;
     server_name api.staging.studentdumbways.my.id staging.studentdumbways.my.id api.production.studentdumbways.my.id production.studentdumbways.my.id registry.daffa.studentdumbways.my.id exporter1-production.studentdumbways.my.id exporter2-getaway.studentdumbways.my.id exporter3-staging.studentdumbways.my.id exporter4-registry.studentdumbways.my.id exporter5-monitoring.studentdumbways.my.id prom-daffa.studentdumbways.my.id monitoring-daffa.studentdumbways.my.id;
     return 301 https://$host$request_uri;
-}
-...
-server {
+  }
+
+    server {
     listen 443 ssl;
     server_name api.staging.studentdumbways.my.id;
 
@@ -67,9 +68,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name staging.studentdumbways.my.id;
 
@@ -83,9 +84,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name api.production.studentdumbways.my.id;
 
@@ -99,9 +100,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name production.studentdumbways.my.id;
 
@@ -115,9 +116,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name exporter1-production.studentdumbways.my.id;
 
@@ -131,9 +132,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name exporter2-getaway.studentdumbways.my.id;
 
@@ -147,9 +148,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name exporter3-staging.studentdumbways.my.id;
 
@@ -163,9 +164,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name exporter4-registry.studentdumbways.my.id;
 
@@ -179,9 +180,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name exporter5-monitoring.studentdumbways.my.id;
 
@@ -195,15 +196,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
-
-
-
-
-
-
-
-server {
+    }
+    
+    server {
     listen 443 ssl;
     server_name prom-daffa.studentdumbways.my.id;
 
@@ -312,4 +307,7 @@ upstream jenkins {
             proxy_request_buffering off; # Required for HTTP CLI commands
         }
     }
-...
+
+
+                
+    
