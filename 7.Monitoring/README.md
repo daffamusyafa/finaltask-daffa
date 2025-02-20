@@ -37,5 +37,15 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/f3de86b2-86d0-4fbf-a4ad-b907ae259477)
 
+# Buat dasboard di grafana
 
+![image](https://github.com/user-attachments/assets/f47a9f23-efa4-4a30-ac1c-9b5662d99768)
+
+# Buat alert ke telegram
+
+![image](https://github.com/user-attachments/assets/b64f9fd1-7ee4-4fad-80fc-d36f32548d7c)
+
+![image](https://github.com/user-attachments/assets/3f2290a9-2642-420d-9b97-eb868410d250)
+
+![image](https://github.com/user-attachments/assets/438f3e7b-8765-4c8d-a656-fc2d3b17c3af)
 
