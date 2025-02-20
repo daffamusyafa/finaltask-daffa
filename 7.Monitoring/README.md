@@ -47,5 +47,6 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/3f2290a9-2642-420d-9b97-eb868410d250)
 
-![image](https://github.com/user-attachments/assets/438f3e7b-8765-4c8d-a656-fc2d3b17c3af)
+![photo_6172662432024084685_y](https://github.com/user-attachments/assets/74c409e3-1e39-40df-9b98-182bb2be26b7)
+
 
