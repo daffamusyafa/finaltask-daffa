@@ -47,6 +47,7 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/c91c62d1-536d-44ed-915f-f9cdf0eb09cd)
 
+...
 server {
     listen 80;
     server_name api.staging.studentdumbways.my.id staging.studentdumbways.my.id api.production.studentdumbways.my.id production.studentdumbways.my.id registry.daffa.studentdumbways.my.id exporter1-production.studentdumbways.my.id exporter2-getaway.studentdumbways.my.id exporter3-staging.studentdumbways.my.id exporter4-registry.studentdumbways.my.id exporter5-monitoring.studentdumbways.my.id prom-daffa.studentdumbways.my.id monitoring-daffa.studentdumbways.my.id;
