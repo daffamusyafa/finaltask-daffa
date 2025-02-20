@@ -52,7 +52,7 @@ JAWABAN:
     listen 80;
     server_name api.staging.studentdumbways.my.id staging.studentdumbways.my.id api.production.studentdumbways.my.id production.studentdumbways.my.id registry.daffa.studentdumbways.my.id exporter1-production.studentdumbways.my.id exporter2-getaway.studentdumbways.my.id exporter3-staging.studentdumbways.my.id exporter4-registry.studentdumbways.my.id exporter5-monitoring.studentdumbways.my.id prom-daffa.studentdumbways.my.id monitoring-daffa.studentdumbways.my.id;
     return 301 https://$host$request_uri;
-  }
+    }
 
     server {
     listen 443 ssl;
@@ -212,9 +212,9 @@ JAWABAN:
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-server {
+    server {
     listen 443 ssl;
     server_name monitoring-daffa.studentdumbways.my.id;
 
@@ -228,9 +228,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-}
+    }
 
-upstream jenkins {
+    upstream jenkins {
         keepalive 32; # keepalive connections
         server 103.127.139.123:8080; # jenkins ip and port
     }
