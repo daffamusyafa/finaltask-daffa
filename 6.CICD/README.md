@@ -83,7 +83,7 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/baf22431-8af7-4abb-8436-49f4db980793)
 
-# hasil otomatisasi jenkins menggunakan scanner trivy dan wget spider
+# hasil otomatisasi jenkins menggunakan scanner trivy,wget spider dan sonarqube
 
 ![image](https://github.com/user-attachments/assets/45cede5a-acb7-4ac1-9fc6-7594cd91cff6)
 
@@ -91,4 +91,4 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/0bd2906b-a743-4a4a-a9ee-d78064a2dd90)
 
-
+![image](https://github.com/user-attachments/assets/7ed9dca9-350e-4396-8a30-9f6be77ac30c)
