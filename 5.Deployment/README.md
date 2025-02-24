@@ -40,6 +40,12 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/78b13c00-35ef-42b4-b5af-d4411198bc81)
 
+![image](https://github.com/user-attachments/assets/ac4bf965-826b-49b7-8d3f-b7f021aa2b9d)
+
+![image](https://github.com/user-attachments/assets/0ca7721d-d03e-46cf-a03b-a53e0a514527)
+
+![image](https://github.com/user-attachments/assets/7d146af1-21d3-4cb7-b079-851223d36bb8)
+
 # staging
 
 ![image](https://github.com/user-attachments/assets/da515d4e-ab6d-4418-83f5-adb446d5f41d)
@@ -52,3 +58,8 @@ JAWABAN:
 
 ![image](https://github.com/user-attachments/assets/28f3a4f8-b07b-425f-a871-e0d7ca7f2eee)
 
+![image](https://github.com/user-attachments/assets/3109d71b-23e6-4516-b045-9afa5c190b1c)
+
+![image](https://github.com/user-attachments/assets/5b9da27f-57de-4fbb-bf11-ff30becb51cc)
+
+![image](https://github.com/user-attachments/assets/bc3baa9a-3f32-45ac-a90b-29c0211fbf68)
